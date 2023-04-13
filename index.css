@@ -1,0 +1,741 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.loopstudios-logo {
+  width: 144px;
+  height: 24px;
+  color: #ffffff;
+}
+
+.icon-hamburger {
+  height: 16px;
+  width: 24px;
+}
+
+.icon-logo-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.about-menu-div {
+  display: none;
+}
+
+.immersive-text {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #ffffff;
+  height: 146px;
+  width: 279px;
+  padding: 26px 24px 24px 24px;
+}
+
+.immersive-text-div {
+  height: 196px;
+  width: 327px;
+  border: 2px solid #ffffff;
+  margin-top: 163px;
+}
+
+.loopstudios-immersive-divs {
+  background-image: url(./images/mobile/image-hero.jpg);
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  padding: 24px;
+  display: block;
+  position: relative;
+}
+
+.image-interactive {
+  margin-top: 96px;
+  width: 370px;
+  padding: 24px;
+}
+
+.our-text {
+  height: 32px;
+  width: 279px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 96px;
+  display: block;
+}
+
+.the-leader-text {
+  height: 64px;
+  width: 279px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.founded-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  height: 175px;
+  width: 279px;
+  margin-top: 16px;
+}
+
+.text-div {
+  padding: 48px;
+}
+
+.background-img-parent {
+  padding: 48px 24px 34px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  display: block;
+  display: flex;
+}
+
+.img-class {
+  height: 120px;
+  width: 327px;
+  background-size: cover;
+}
+
+.deep-img-div {
+  background-image: url(./images/mobile/image-deep-earth.jpg);
+}
+
+.linear-deep {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.0001) 0%,
+    rgba(0, 0, 0, 0.601863) 100%
+  );
+  height: 100%;
+  width: 100%;
+}
+
+.deep-text {
+  height: 48px;
+  width: 80px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 52px 227px 20px 20px;
+}
+
+.linear-night {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.0001) 0%,
+    rgba(0, 0, 0, 0.601863) 100%
+  );
+  height: 100%;
+  width: 100%;
+}
+
+.night-img-div {
+  background-image: url(./images/mobile/image-night-arcade.jpg);
+}
+
+.night_text {
+  height: 48px;
+  width: 80px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 52px 227px 20px 20px;
+}
+
+.soccer-img-div {
+  background-image: url(./images/mobile/image-soccer-team.jpg);
+}
+.linear-soccer {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.0001) 0%,
+    rgba(0, 0, 0, 0.601863) 100%
+  );
+  height: 100%;
+  width: 100%;
+}
+.soccer-text {
+  height: 48px;
+  width: 108px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 52px 227px 20px 20px;
+  box-sizing: content-box;
+}
+
+.grid-img-div {
+  background-image: url(./images/mobile/image-grid.jpg);
+}
+.linear-grid {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.0001) 0%,
+    rgba(0, 0, 0, 0.601863) 100%
+  );
+  height: 100%;
+  width: 100%;
+}
+.the-grid {
+  height: 48px;
+  width: 108px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 52px 227px 20px 20px;
+}
+
+.from-img-div {
+  background-image: url(./images/mobile/image-from-above.jpg);
+}
+.linear-from {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.0001) 0%,
+    rgba(0, 0, 0, 0.601863) 100%
+  );
+  height: 100%;
+  width: 100%;
+}
+.from-text {
+  height: 48px;
+  width: 123px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 52px 227px 20px 20px;
+  box-sizing: content-box;
+}
+
+.pocket-img-div {
+  background-image: url(./images/mobile/image-pocket-borealis.jpg);
+}
+
+.linear-pocket {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.0001) 0%,
+    rgba(0, 0, 0, 0.601863) 100%
+  );
+  height: 100%;
+  width: 100%;
+}
+.pocket-text {
+  height: 48px;
+  width: 123px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 52px 227px 20px 20px;
+  box-sizing: content-box;
+}
+
+.curiosity-img-div {
+  background-image: url(./images/mobile/image-curiosity.jpg);
+}
+.linear-curiosity {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.0001) 0%,
+    rgba(0, 0, 0, 0.601863) 100%
+  );
+  height: 100%;
+  width: 100%;
+}
+.curiosity-text {
+  height: 48px;
+  width: 123px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 52px 227px 20px 20px;
+  box-sizing: content-box;
+}
+
+.make-img-div {
+  background-image: url(./images/mobile/image-fisheye.jpg);
+}
+.linear-make {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.0001) 0%,
+    rgba(0, 0, 0, 0.601863) 100%
+  );
+  height: 100%;
+  width: 100%;
+}
+.make-text {
+  height: 48px;
+  width: 123px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 52px 227px 20px 20px;
+  box-sizing: content-box;
+}
+
+.see-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 14px 26px 5px 34px;
+  box-sizing: content-box;
+}
+
+.see-div {
+  height: 40px;
+  width: 157px;
+  border: 1px solid #000000;
+  margin-left: 109px;
+  display: block;
+}
+
+.finish-div {
+  background: #000000;
+  height: 470px;
+  width: 375px;
+  margin-top: 96px;
+}
+
+.support {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.careers-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.products {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.events {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.about-texts-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-loopstudios2 {
+  height: 24px;
+  width: 144px;
+  padding: 56px 115px 32px 116px;
+  box-sizing: content-box;
+}
+
+.fb-logos {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.loopstudio-text {
+  height: 25px;
+  width: 272px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding: 16px 51px 56px 52px;
+  box-sizing: content-box;
+}
+
+.loopstudios-immersive-divs-dekstop {
+  display: none;
+}
+
+.dekstop-background-img-parent {
+  display: none;
+}
+
+.our-text2 {
+  display: none;
+}
+
+.see-text2 {
+  display: none;
+}
+
+.mobile-menu {
+  height: 667px;
+  width: 375px;
+  background: #000000;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /* display: block; */
+}
+
+.lop-close-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 16.81px 0px 24px;
+}
+.close {
+  height: 20px;
+  width: 20px;
+}
+
+.loopstudios-mobile {
+  height: 24px;
+  width: 144px;
+}
+
+.text-mobile {
+  height: 25px;
+  width: 83px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.mobile-menu-div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 159px;
+  margin-left: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .loopstudios-immersive-divs {
+    display: none;
+  }
+
+  .about-menu-div {
+    display: block;
+    margin-top: -583px;
+    margin-left: 878px;
+    position: absolute;
+    display: flex;
+    gap: 16px;
+  }
+
+  .loopstudios-immersive-divs-dekstop {
+    display: block;
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+
+  .loopstudios-logo {
+    height: 32px;
+    width: 192px;
+    margin-left: 125px;
+    margin-top: 64px;
+  }
+
+  .immersive-text-div {
+    height: 278px;
+    width: 650px;
+    margin-left: 125px;
+    border: 2px solid #ffffff;
+    margin-top: 130px;
+  }
+
+  .immersive-text {
+    font-size: 72px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #ffffff;
+    box-sizing: content-box;
+    height: 198px;
+    width: 570px;
+  }
+
+  .image-interactive {
+    height: 500px;
+    width: 731px;
+    margin-left: 164px;
+    margin-top: 160px;
+  }
+
+  .our-text {
+    display: none;
+  }
+
+  .see-div {
+    display: none;
+  }
+
+  .see-text2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 14px 26px 10px 34px;
+    box-sizing: content-box;
+    cursor: pointer;
+    display: block;
+  }
+
+  .see-text2:hover {
+    background: #000000;
+    color: #ffffff;
+  }
+
+  .see-div2 {
+    height: 40px;
+    width: 157px;
+    border: 1px solid #000000;
+  }
+
+  .our-text2 {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 48px;
+    width: 445px;
+    height: 48px;
+    text-transform: uppercase;
+    color: #000000;
+    display: block;
+  }
+
+  .our-text-see-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 162px;
+  }
+
+  .text-div {
+    height: 317px;
+    width: 541px;
+    background: #ffffff;
+    margin-left: 723px;
+    margin-top: -276px;
+    position: absolute;
+  }
+
+  .the-leader-text {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #000000;
+    height: 96px;
+    width: 445px;
+    text-align: start;
+  }
+
+  .founded-text {
+    height: 100px;
+    width: 445px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-align: start;
+  }
+
+  .img-class {
+    height: 450px;
+    width: 256px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .down-menu {
+    cursor: pointer;
+  }
+
+  .logo-icon-social {
+    cursor: pointer;
+  }
+  .hover-class:hover {
+    background: rgba(255, 255, 255, 0.75071);
+  }
+
+  .dekstop-background-img-parent {
+    display: block;
+    display: flex;
+    padding: 162px;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .background-img-parent {
+    display: none;
+  }
+
+  .div-deks-img {
+    background-image: url(./images/desktop/image-deep-earth.jpg);
+  }
+
+  .night-deks-img {
+    background-image: url(./images/desktop/image-night-arcade.jpg);
+  }
+
+  .soccer-deks-img {
+    background-image: url(./images/desktop/image-soccer-team.jpg);
+  }
+
+  .grid-deks-img {
+    background-image: url(./images/desktop/image-grid.jpg);
+  }
+
+  .from-deks-img {
+    background-image: url(./images/desktop/image-from-above.jpg);
+  }
+
+  .pocket-deks-img {
+    background-image: url(./images/desktop/image-pocket-borealis.jpg);
+  }
+
+  .curiosity-deks-img {
+    background-image: url(./images/desktop/image-curiosity.jpg);
+  }
+
+  .make-deks-img {
+    background-image: url(./images/desktop/image-fisheye.jpg);
+  }
+
+  .img-para-text {
+    height: 64px;
+    width: 106px;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 354px 110px 32px 40px;
+    box-sizing: content-box;
+  }
+
+  .finish-div {
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 165px;
+    align-items: center;
+  }
+
+  .logo-about-div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .about-texts-div {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .fb-logos-loopstudio-div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-end;
+  }
+
+  .fb-logos {
+    margin-top: 0;
+  }
+
+  .logo-loopstudios2 {
+    height: 32px;
+    width: 173px;
+    padding: 0;
+  }
+
+  .loopstudio-text {
+    padding: 0;
+  }
+
+  .text {
+    cursor: pointer;
+  }
+}
